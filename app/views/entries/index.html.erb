@@ -1,0 +1,20 @@
+<div class="container">
+
+<br>
+  <div id="entries" class="row">
+    <% @entries.each do |entry| %>
+      <div class="col-md-4">
+        <%= render entry %>
+        <p>
+          <%= link_to "Show this entry", entry, class: "btn btn-secondary" %>
+          
+        </p>
+        <br>  
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+

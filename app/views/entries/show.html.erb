@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @entry %>
+
+<div>
+  <%= link_to "Edit this entry", edit_entry_path(@entry), class: "btn btn-secondary" %> 
+  <%= link_to "Back to entries", entries_path , class: "btn btn-secondary" %>
+
+  <br></br>
+  <%= button_to "Destroy this entry", @entry, method: :delete, class: "btn btn-danger" %>
+</div>

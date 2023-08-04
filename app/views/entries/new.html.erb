@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Other meta tags and title here -->
+</head>
+<body>
+  <div class="container mt-4 d-flex justify-content-center align-items-center"> <!-- Center the content horizontally and vertically -->
+    <div>
+      <h2>New Log</h2>
+      <%= render "form", entry: @entry %>
+      <br>
+      <div>
+        <%= link_to "Back to entries", entries_path, class: "btn btn-primary" %> <!-- Use Bootstrap's primary button style -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
