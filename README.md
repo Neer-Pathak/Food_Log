@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simply Clone the project and go to folder where you will find gem file.
+Then run "rails s"
 
-Things you may want to cover:
+Things in this Food Log app:
 
-* Ruby version
+* Ruby version - 3.2.2
 
-* System dependencies
+* I have added bootstrap via cdn which is included in app>views>layouts>application.html.erb
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* All CRUD operations along with validation applied on this current version of app.
